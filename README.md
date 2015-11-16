@@ -1,4 +1,6 @@
 # jekyll-post-unslugify
+![](https://img.shields.io/gem/dt/jekyll-post-unslugify.svg) ![](https://img.shields.io/gem/v/jekyll-post-unslugify.svg)
+
 A plugin to keep post title unslugified in Jekyll 3.0 and above. 
 
 Since Jekyll starts to slugify title of posts, any character except numbers and letters will be replaced as `-`. If you name your posts as `Cased-Title.md` or `underscore_hyphen.md` or any string containing special characters, the link of related post will change after you upgrade Jekyll from 2.x to 3. This plugin aims to help you out.
